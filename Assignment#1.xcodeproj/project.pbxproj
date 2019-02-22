@@ -56,7 +56,6 @@
 				97414C309F751BF1F71B5619 /* Pods-Assignment#1.debug.xcconfig */,
 				1CFE83BC2B89DDF2BF144D62 /* Pods-Assignment#1.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
