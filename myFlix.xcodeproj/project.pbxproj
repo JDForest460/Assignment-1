@@ -20,7 +20,7 @@
 		1CFE83BC2B89DDF2BF144D62 /* Pods-Assignment#1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment#1.release.xcconfig"; path = "Target Support Files/Pods-Assignment#1/Pods-Assignment#1.release.xcconfig"; sourceTree = "<group>"; };
 		223AB9830C2971CBF084F398 /* Pods_Assignment_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97414C309F751BF1F71B5619 /* Pods-Assignment#1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment#1.debug.xcconfig"; path = "Target Support Files/Pods-Assignment#1/Pods-Assignment#1.debug.xcconfig"; sourceTree = "<group>"; };
-		B54F2B36221B16AB0035FEB3 /* Assignment#1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment#1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54F2B36221B16AB0035FEB3 /* myFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54F2B39221B16AB0035FEB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B54F2B3E221B16AB0035FEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B54F2B40221B16AE0035FEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		B54F2B2D221B16AB0035FEB3 = {
 			isa = PBXGroup;
 			children = (
-				B54F2B38221B16AB0035FEB3 /* Assignment#1 */,
+				B54F2B38221B16AB0035FEB3 /* myFlix */,
 				B54F2B37221B16AB0035FEB3 /* Products */,
 				6B5463538E036D2989C0D677 /* Pods */,
 				09DEE55EF9BD951E93D8E90E /* Frameworks */,
@@ -72,12 +72,12 @@
 		B54F2B37221B16AB0035FEB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B54F2B36221B16AB0035FEB3 /* Assignment#1.app */,
+				B54F2B36221B16AB0035FEB3 /* myFlix.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B54F2B38221B16AB0035FEB3 /* Assignment#1 */ = {
+		B54F2B38221B16AB0035FEB3 /* myFlix */ = {
 			isa = PBXGroup;
 			children = (
 				B54F2B39221B16AB0035FEB3 /* AppDelegate.swift */,
@@ -88,15 +88,15 @@
 				B54F2B45221B16AE0035FEB3 /* Info.plist */,
 				B54F2B4B221B4ACB0035FEB3 /* MoviesViewController.swift */,
 			);
-			path = "Assignment#1";
+			path = myFlix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B54F2B35221B16AB0035FEB3 /* Assignment#1 */ = {
+		B54F2B35221B16AB0035FEB3 /* myFlix */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B54F2B48221B16AE0035FEB3 /* Build configuration list for PBXNativeTarget "Assignment#1" */;
+			buildConfigurationList = B54F2B48221B16AE0035FEB3 /* Build configuration list for PBXNativeTarget "myFlix" */;
 			buildPhases = (
 				C2E68C63641CF4B27BD5C788 /* [CP] Check Pods Manifest.lock */,
 				B54F2B32221B16AB0035FEB3 /* Sources */,
@@ -108,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = "Assignment#1";
+			name = myFlix;
 			productName = "Assignment#1";
-			productReference = B54F2B36221B16AB0035FEB3 /* Assignment#1.app */;
+			productReference = B54F2B36221B16AB0035FEB3 /* myFlix.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B54F2B31221B16AB0035FEB3 /* Build configuration list for PBXProject "Assignment#1" */;
+			buildConfigurationList = B54F2B31221B16AB0035FEB3 /* Build configuration list for PBXProject "myFlix" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B54F2B35221B16AB0035FEB3 /* Assignment#1 */,
+				B54F2B35221B16AB0035FEB3 /* myFlix */,
 			);
 		};
 /* End PBXProject section */
@@ -398,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B54F2B31221B16AB0035FEB3 /* Build configuration list for PBXProject "Assignment#1" */ = {
+		B54F2B31221B16AB0035FEB3 /* Build configuration list for PBXProject "myFlix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B54F2B46221B16AE0035FEB3 /* Debug */,
@@ -407,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B54F2B48221B16AE0035FEB3 /* Build configuration list for PBXNativeTarget "Assignment#1" */ = {
+		B54F2B48221B16AE0035FEB3 /* Build configuration list for PBXNativeTarget "myFlix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B54F2B49221B16AE0035FEB3 /* Debug */,
