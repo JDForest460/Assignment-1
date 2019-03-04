@@ -22,6 +22,7 @@ class MovieDetailsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
       
+        
         titleLable.text = movie["title"] as? String
         titleLable.sizeToFit()
         
@@ -39,6 +40,7 @@ class MovieDetailsViewController: UIViewController {
         let backdropUrl = URL(string: "https://image.tmdb.org/t/p/w780" + backdropPath)
         
         backdropView.af_setImage(withURL: backdropUrl!)
+        
         
     }
     
